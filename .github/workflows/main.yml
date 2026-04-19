@@ -27,7 +27,7 @@ jobs:
 
       - name: Run Pytest
         run: |
-          pytest
+          python -m pytest
 
   build:
     needs: test
